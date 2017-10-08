@@ -54,13 +54,13 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## SRC structure
 
-'main.cpp' Initialize the objects necessary, and creates the server that reads the input (the lidar and radar measurements), process the data and sends the estimations to the simulator.
+`main.cpp` Initialize the objects necessary for the calculation, and creates the server that reads the input (the lidar and radar measurements), process the data and sends the estimations to the simulator.
 
-'FusionEKF' Class that contains the EKF object, and acts as the interface to process the measurement.
+`FusionEKF` Class that contains the EKF object, and acts as the interface to process the measurement.
 
-'KalmanFilter' Implementation of the Kalman Filter. It has an update function which acts on the vector data of the measurement, and a predict function.
+`KalmanFilter` Implementation of the Kalman Filter. It has an update function which acts on the vector data of the measurement, and a predict function.
 
-'Tools' Contains thee functions to calculate the Jacobian and the RMSE.
+`Tools` Contains thee functions to calculate the Jacobian and the RMSE.
 
 ## Results
 
