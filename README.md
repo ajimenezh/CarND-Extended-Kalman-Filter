@@ -21,7 +21,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 4. make
 5. ./ExtendedKF
 
-# INPUT / OUTPUT
+## INPUT / OUTPUT
 
 INPUT: values provided by the simulator to the c++ program
 
@@ -52,7 +52,7 @@ OUTPUT: values provided by the c++ program to the simulator
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
-# SRC structure
+## SRC structure
 
 'main.cpp' Initialize the objects necessary, and creates the server that reads the input (the lidar and radar measurements), process the data and sends the estimations to the simulator.
 
@@ -62,6 +62,6 @@ OUTPUT: values provided by the c++ program to the simulator
 
 'Tools' Contains thee functions to calculate the Jacobian and the RMSE.
 
-# Results
+## Results
 
 ![Image](./Images/Image1.png?raw=true)
