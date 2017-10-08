@@ -54,7 +54,7 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## SRC structure
 
-`main.cpp` Initialize the objects necessary, and creates the server that reads the input (the lidar and radar measurements), process the data and sends the estimations to the simulator.
+`main.cpp` Initialize the objects necessary for the calculation, and creates the server that reads the input (the lidar and radar measurements), process the data and sends the estimations to the simulator.
 
 `FusionEKF` Class that contains the EKF object, and acts as the interface to process the measurement.
 
